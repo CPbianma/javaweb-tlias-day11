@@ -6,7 +6,7 @@ spring:
     url: jdbc:mysql://localhost:3306/tlias
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: 12345678
+    password: your_password
   servlet:
     multipart:
       #最大单个文件大小
@@ -31,5 +31,5 @@ logging:
 aliyun:
   oss:
     endpoint: https://oss-cn-beijing.aliyuncs.com
-    bucketName: java-ai-cp
+    bucketName: your_bucket
     region: cn-beijing
